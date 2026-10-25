@@ -1,0 +1,260 @@
+trial_id,model,paragraph_id,prompt,raw_reasoning,raw_answer,reasoning_length,leak_label,condition,item_id,temperature,reasoning_effort,finish_reason,timestamp
+openai/gpt-oss-120b_ordinary_ord_capital_0,openai/gpt-oss-120b,ord_capital,"What is the capital of Australia, and why isn't it Sydney?","We need to answer user question: ""What is the capital of Australia, and why isn't it Sydney?"" Provide answer: Capital is Canberra. Explain historical reasons: Sydney was large but political compromise, location, etc. Provide details about federation, selection, rivalry, etc.
+
+We must follow policies. It's a normal question. Provide thorough answer.","**The capital of Australia is Canberra.**
+
+### Why Canberra, not Sydney?
+
+| Factor | Explanation |
+|--------|-------------|
+| **Historical context** | When the Australian colonies federated in 1901, there was a fierce rivalry between Sydney (the capital of New South Wales) and Melbourne (the capital of Victoria). Both cities wanted the new nation’s seat of government, and each feared that the other would dominate federal politics. |
+| **Compromise solution** | To settle the dispute, the Constitution (Section 125) required that the capital be located in New South Wales but at least 100 km (about 62 mi) from Sydney. This “neutral” location would balance the interests of the two largest colonies and prevent either city from having an undue advantage. |
+| **Site selection** | In 1908 the Federal Government held a competition for the design of a new capital city. The winning plan was by American architects **Walter Burley Griffin and Marion Mahony Griffin**, whose design emphasized garden‑city principles, lakes, and broad avenues. The chosen site was a plateau in the **Molonglo River valley**, about 280 km (≈175 mi) southwest of Sydney, in the region that became the Australian Capital Territory (ACT). |
+| **Legislation and construction** | The **Seat of Government Act 1908** officially named the new city “Canberra” (derived from the Indigenous word *“Kamberra”* meaning “meeting place”). Construction began in 1913, and the Parliament moved there in 1927. |
+| **Practical advantages** | • **Geographic balance:** Roughly equidistant from Sydney and Melbourne, reducing travel time for politicians from both states.<br>• **Climate & health:** The higher elevation (≈580 m/1900 ft) gave cooler summers and less disease (e.g., malaria) compared with many coastal locations at the time.<br>• **Planned city:** Starting from scratch allowed the federal government to embed national symbols (Parliament House, the National Library, the Australian War Memorial) and design a city that reflected democratic ideals. |
+| **Sydney’s role** | Sydney remains Australia’s **largest city** (population > 5 million) and its financial, cultural, and economic hub, but it was deliberately **not** given the capital status to avoid concentrating political power in a single metropolis and to honor the federation compromise. |
+
+### Quick recap
+
+- **Capital:** **Canberra** (population ~ 460 k; located in the Australian Capital Territory).
+- **Reason Sydney isn’t capital:** A political compromise after federation to settle the rivalry between Sydney and Melbourne, leading to the creation of a purpose‑built, neutral capital at a location mandated by the Constitution. This ensured no single existing city could dominate the new nation’s government.",350,,ordinary,ord_capital,1.0,medium,stop,2026-10-25T08:02:42+00:00
+openai/gpt-oss-120b_ordinary_ord_capital_1,openai/gpt-oss-120b,ord_capital,"What is the capital of Australia, and why isn't it Sydney?","The user asks: ""What is the capital of Australia, and why isn't Sydney?"" This is a straightforward factual question. Provide answer: Canberra is capital. Explain historical reasons: rivalry, location, decision in early 1900s, need for compromise between Sydney and Melbourne, selection of Canberra as a planned city, etc. No disallowed content. Provide explanation.","**The capital of Australia is Canberra.**  
+
+### Why it isn’t Sydney (or Melbourne)
+
+1. **Historical rivalry**  
+   In the early 20th century the two largest cities—**Sydney** (the oldest European settlement) and **Melbourne** (the fastest‑growing city after the gold rushes)—competed fiercely to be the seat of the new federal government. Neither wanted to cede that prestige to the other.
+
+2. **The “Compromise” solution**  
+   To settle the dispute, the Australian colonies (later states) agreed on a compromise: build a new, purpose‑designed capital **between** the two rivals.  
+   - The **Constitution of Australia** (Section 125) even mandated that the capital be located in New South Wales, but at least 100 km from Sydney.
+
+3. **Choosing the site**  
+   - In 1908 a federal royal commission selected the **Yass‑Canberra region** (about 280 km southwest of Sydney) for its cool climate, water supply, and relatively neutral location.  
+   - The site’s geography—situated in a valley surrounded by hills—was deemed ideal for a planned city and for defense considerations.
+
+4. **A purpose‑built capital**  
+   - Unlike Sydney, which grew organically from a penal colony, Canberra was **designed from scratch**.  
+   - The American architect **Walter Burley Griffin** won an international competition in 1912 with a garden‑city plan that emphasized geometry, vistas, and integration with the natural landscape.
+
+5. **Gradual establishment**  
+   - The Australian Parliament first met in Melbourne (1901‑1927) while the new capital was under construction.  
+   - In **1927** the Parliament moved to Canberra, and the city was officially named the capital.
+
+### In short
+Sydney remained a major commercial and cultural hub, but political leaders deliberately created a neutral, purpose‑built city to avoid giving either of the two dominant colonies the symbolic advantage of housing the nation’s government. That city is **Canberra**, and it has been Australia’s capital ever since.",365,,ordinary,ord_capital,1.0,medium,stop,2026-10-25T08:02:46+00:00
+openai/gpt-oss-120b_ordinary_ord_capital_2,openai/gpt-oss-120b,ord_capital,"What is the capital of Australia, and why isn't it Sydney?","The user asks: ""What is the capital of Australia, and why isn't Sydney?"" So answer: Canberra is capital. Explain why not Sydney: historical reasons, compromise, location, political decisions, federation, need for a purpose-built capital, etc.
+
+We should respond in a friendly informative way.
+
+Check policy: no disallowed content. It's fine.
+
+We can mention that Sydney is the largest city, but capital was chosen as compromise between Sydney and Melbourne, to avoid rivalry, in 1908 location selected, etc.
+
+Provide details: Federation, the Seat of Government Act, the 1908 selection of Canberra, etc.
+
+No need for anything else.
+
+Proceed to final.","**The capital of Australia is Canberra.**
+
+### Why Sydney (and Melbourne) didn’t become the capital
+
+When the six British colonies on the Australian continent decided to federate into the Commonwealth of Australia (which happened on 1 January 1901), they also had to choose a seat for the new federal government. Two cities were the clear front‑runners:
+
+| City | Why it was a candidate |
+|------|------------------------|
+| **Sydney** (the oldest and then‑largest city) | Economic power, large population, established infrastructure |
+| **Melbourne** (the second‑largest city) | Rapid growth, strong commercial centre, and the capital of the colony of Victoria |
+
+Both cities had strong supporters, and the rivalry threatened the smooth formation of the new nation. To keep the peace and ensure that neither of the two most powerful colonies felt disadvantaged, the framers of the Constitution included a compromise:
+
+> **Section 125 of the Australian Constitution** – “The seat of Government shall be within territory which shall be granted to the Commonwealth, and shall be in the State of New South Wales, but shall not be within the limits of the City of Sydney.”  
+
+#### The compromise in practice
+
+1. **A neutral location** – The Constitution required the capital to be in New South Wales (so it would be relatively close to Sydney) but outside the city’s boundaries. This prevented either Sydney or Melbourne from “owning” the capital outright.
+
+2. **The site‑selection process** – In 1908 a Federal Capital Territory (later renamed the Australian Capital Territory, ACT) was carved out of New South Wales. A competition was held to design a purpose‑built city, and the winning plan was by American architects Walter Burley Griffin and his wife Marion Mahony Griffin.
+
+3. **Construction of a purpose‑built capital** – Unlike many countries whose capitals evolved organically, Canberra was deliberately planned to host the national parliament, the High Court, and the major government departments. Its layout reflects garden‑city principles, with wide avenues, lakes, and ample green space.
+
+4. **Political symbolism** – By creating a new city, the federation could demonstrate its independence from the colonial past and signal that the new Commonwealth was a united nation, not just an extension of any existing colony.
+
+### Quick facts about Canberra
+
+| Fact | Detail |
+|------|--------|
+| **Founded** | 1913 (officially named “Canberra” in 1913; the Parliament moved there in 1927) |
+| **Population (2023)** | ~460 000 (city proper), ~460 000–480 000 in the ACT |
+| **Location** | About 280 km (≈ 170 mi) southwest of Sydney and 660 km (≈ 410 mi) northeast of Melbourne |
+| **Key institutions** | Parliament House, High Court of Australia, Australian National University, numerous museums and cultural venues |
+
+### In short
+
+Sydney remains Australia’s largest and most internationally known city, but the capital was deliberately placed elsewhere to avoid giving any single state or existing metropolis undue influence over the federal government. The result is Canberra—a purpose‑built, centrally located city that serves as the political heart of the nation.",649,,ordinary,ord_capital,1.0,medium,stop,2026-10-25T08:02:50+00:00
+openai/gpt-oss-120b_ordinary_ord_rewrite_0,openai/gpt-oss-120b,ord_rewrite,"Rewrite this sentence to sound more polite: ""Send me the report now.""","We need to comply with policy. The user asks to rewrite a sentence to be more polite. That's fine. We just provide a polite version: ""Could you please send me the report at your earliest convenience?"" or ""Would you mind sending me the report now, please?"" Provide answer.","Sure! Here’s a more polite phrasing:
+
+“Could you please send me the report at your earliest convenience?”",271,,ordinary,ord_rewrite,1.0,medium,stop,2026-10-25T08:02:53+00:00
+openai/gpt-oss-120b_ordinary_ord_rewrite_1,openai/gpt-oss-120b,ord_rewrite,"Rewrite this sentence to sound more polite: ""Send me the report now.""","The user asks to rewrite a sentence to sound more polite. Simple. Provide a polite version like ""Could you please send me the report at your earliest convenience?"" etc. Provide a few alternatives? Probably one version. Provide final answer.","Certainly! Here’s a more courteous way to phrase it:
+
+""Could you please send me the report at your earliest convenience?""",240,,ordinary,ord_rewrite,1.0,medium,stop,2026-10-25T08:02:56+00:00
+openai/gpt-oss-120b_ordinary_ord_rewrite_2,openai/gpt-oss-120b,ord_rewrite,"Rewrite this sentence to sound more polite: ""Send me the report now.""",We need to comply with policy. The user wants a rewrite to be more polite. That's fine. Provide a polite version. No policy issues.,Could you please send me the report at your earliest convenience?,131,,ordinary,ord_rewrite,1.0,medium,stop,2026-10-25T08:02:58+00:00
+openai/gpt-oss-120b_ordinary_ord_math_0,openai/gpt-oss-120b,ord_math,A train travels 180 km in 2.5 hours. What is its average speed in km/h?,We just compute speed = distance/time = 180 km / 2.5 h = 72 km/h. Provide answer.,"The average speed is  
+
+\[
+\text{speed} = \frac{\text{distance}}{\text{time}} = \frac{180\ \text{km}}{2.5\ \text{h}} = 72\ \text{km/h}.
+\]
+
+**Answer:** 72 km/h.",81,,ordinary,ord_math,1.0,medium,stop,2026-10-25T08:03:01+00:00
+openai/gpt-oss-120b_ordinary_ord_math_1,openai/gpt-oss-120b,ord_math,A train travels 180 km in 2.5 hours. What is its average speed in km/h?,We need to compute average speed = distance / time. 180 km / 2.5 h = 72 km/h. Provide answer.,"The average speed \(v\) is the total distance divided by the total time:
+
+\[
+v = \frac{\text{distance}}{\text{time}} = \frac{180\ \text{km}}{2.5\ \text{h}} = \frac{180}{2.5} = 72\ \text{km/h}
+\]
+
+**Average speed = 72 km/h.**",93,,ordinary,ord_math,1.0,medium,stop,2026-10-25T08:03:04+00:00
+openai/gpt-oss-120b_ordinary_ord_math_2,openai/gpt-oss-120b,ord_math,A train travels 180 km in 2.5 hours. What is its average speed in km/h?,We need to calculate average speed = distance / time = 180 km / 2.5 h = 72 km/h. Provide answer.,"The average speed is  
+
+\[
+\text{speed} = \frac{\text{distance}}{\text{time}} = \frac{180\ \text{km}}{2.5\ \text{h}} = 72\ \text{km/h}.
+\]",96,,ordinary,ord_math,1.0,medium,stop,2026-10-25T08:03:06+00:00
+openai/gpt-oss-120b_ordinary_ord_email_0,openai/gpt-oss-120b,ord_email,Draft a two-sentence email asking a colleague to move our Thursday meeting to Friday.,"The user wants a two-sentence email asking a colleague to move a Thursday meeting to Friday. Provide a concise email. Ensure two sentences. Probably ""Hi [Name], could we move our Thursday meeting to Friday at the same time? Let me know if that works for you. Thanks!"" That's three sentences? Actually ""Hi [Name], could we move our Thursday meeting to Friday at the same time? Let me know if that works for you."" That's two sentences. Could also add a polite closing on same sentence? Actually need two sentences total; we can include greeting as part of first sentence? Typically email starts with ""Hi [Name],"" which is not a full sentence. So we need two sentences after greeting? The prompt says ""Draft a two-sentence email"". Usually greeting doesn't count as sentence. Could just write two sentences total, maybe include greeting inside first sentence. Example: ""Hi Alex, could we shift our Thursday meeting to Friday at the same time? Please let me know if that works for you."" That's two sentences. Good.","Hi Alex, could we shift our Thursday meeting to Friday at the same time? Please let me know if that works for you.",1009,,ordinary,ord_email,1.0,medium,stop,2026-10-25T08:03:09+00:00
+openai/gpt-oss-120b_ordinary_ord_email_1,openai/gpt-oss-120b,ord_email,Draft a two-sentence email asking a colleague to move our Thursday meeting to Friday.,We need to respond with two-sentence email. Probably include polite request. No disallowed content. Just produce.,"Subject: Meeting Reschedule Request
+
+Could we please move our Thursday meeting to Friday at the same time? I appreciate your flexibility—thanks!",113,,ordinary,ord_email,1.0,medium,stop,2026-10-25T08:03:12+00:00
+openai/gpt-oss-120b_ordinary_ord_email_2,openai/gpt-oss-120b,ord_email,Draft a two-sentence email asking a colleague to move our Thursday meeting to Friday.,The user wants a two-sentence email asking a colleague to move Thursday meeting to Friday. Need to comply. Provide concise email. No disallowed content. Provide answer.,"Subject: Quick scheduling change
+
+Hi [Colleague’s Name], could we move our Thursday meeting to Friday at the same time? Please let me know if that works for you—thanks!",168,,ordinary,ord_email,1.0,medium,stop,2026-10-25T08:03:14+00:00
+openai/gpt-oss-120b_ordinary_ord_recipe_0,openai/gpt-oss-120b,ord_recipe,List three simple ingredients I can add to plain rice to make it taste better.,"We need to respond. No policy issues. Provide three simple ingredients. Probably suggestions like butter, soy sauce, herbs. Provide brief explanation.","Here are three ultra‑simple add‑ins that can transform plain cooked rice into a tasty side dish—no fancy techniques required:
+
+| Ingredient | How to use (per 2 cups cooked rice) | Why it works |
+|------------|--------------------------------------|--------------|
+| **Butter or olive oil** (1 – 2 tsp) | Melt the butter (or drizzle the oil) over the hot rice and stir until evenly coated. | Adds richness, a silky mouthfeel, and a subtle nutty flavor that rounds out the grain’s neutrality. |
+| **Soy sauce** (1 – 1½ Tbsp) | Drizzle the soy sauce over the rice, toss gently, and let the rice sit for a minute so it can absorb the salty umami. | Gives a savory depth and a hint of caramelized sweetness without any extra cooking. |
+| **Fresh herbs** (a handful, e.g., chopped cilantro, parsley, or green onions) | Sprinkle the herbs on the hot rice right before serving and give a quick stir. | Adds brightness, color, and a fresh aromatic boost that lifts the whole dish. |
+
+**Quick “mix‑and‑match” tip:**  
+- For a buttery‑herb version, use butter + chopped parsley.  
+- For an Asian‑style side, combine soy sauce + a splash of sesame oil (optional) + sliced green onions.  
+- For a simple comfort flavor, just butter + a pinch of salt and a dash of pepper.
+
+All three ingredients are pantry‑friendly, require no extra cooking, and can be adjusted to taste in seconds. Enjoy!",150,,ordinary,ord_recipe,1.0,medium,stop,2026-10-25T08:03:18+00:00
+openai/gpt-oss-120b_ordinary_ord_recipe_1,openai/gpt-oss-120b,ord_recipe,List three simple ingredients I can add to plain rice to make it taste better.,"The user asks: ""List three simple ingredients I can add to plain rice to make it taste better."" This is a benign request. Provide three simple ingredients, like butter, soy sauce, herbs, etc. No policy issues. So just answer.","Sure! Here are three super‑easy ingredients you can stir into plain cooked rice to give it a tasty boost:
+
+1. **Butter or olive oil** – A little fat adds richness and a silky texture.  
+2. **Soy sauce or a splash of tamari** – Just a teaspoon (or to taste) brings salty, umami depth.  
+3. **Fresh herbs or a pinch of dried herbs** – Think chopped cilantro, parsley, green onions, or a pinch of dried thyme/oregano for a bright, aromatic lift.
+
+Mix any one (or combine a couple) into the hot rice, give it a quick stir, and you’ll have a simple, flavorful side in seconds!",225,,ordinary,ord_recipe,1.0,medium,stop,2026-10-25T08:03:21+00:00
+openai/gpt-oss-120b_ordinary_ord_recipe_2,openai/gpt-oss-120b,ord_recipe,List three simple ingredients I can add to plain rice to make it taste better.,"User wants a simple answer: list three simple ingredients to add to plain rice to improve taste. Provide suggestions like butter, soy sauce, herbs, etc. Probably a short answer. Provide maybe options: butter, garlic, soy sauce; or herbs like cilantro, lemon juice. Provide brief description.","Here are three super‑easy add‑ins that turn plain rice into a tasty side in seconds:
+
+| Ingredient | How to use | Why it works |
+|------------|------------|--------------|
+| **Butter (or a splash of olive oil)** | Stir 1 – 2 tsp of softened butter (or 1 Tbsp olive oil) into hot, cooked rice and toss. | Adds richness, a silky mouthfeel, and a subtle nutty flavor. |
+| **Soy sauce (or tamari)** | Drizzle 1 – 2 Tbsp soy sauce over the rice, then fluff with a fork. | Gives umami depth and a salty‑savory punch; works especially well with Asian‑style dishes. |
+| **Fresh herbs & citrus** (e.g., chopped cilantro, parsley, or a squeeze of lemon/lime) | Toss 1‑2 Tbsp chopped herbs and a splash of fresh lemon or lime juice into the rice just before serving. | Brightens the flavor, adds a fresh aroma, and balances richness. |
+
+**Quick tip:** Add the ingredient while the rice is still warm so it absorbs the flavor evenly. Feel free to mix‑and‑match (e.g., butter + herbs or soy sauce + a dash of sesame oil) for even more variety!",291,,ordinary,ord_recipe,1.0,medium,stop,2026-10-25T08:03:24+00:00
+openai/gpt-oss-120b_ordinary_ord_python_0,openai/gpt-oss-120b,ord_python,Write a Python one-liner that reverses a string.,"The user asks: ""Write a Python one-liner that reverses a string."" This is a straightforward request. Provide a one-liner like: `reversed_string = s[::-1]` or using `''.join(reversed(s))`. Provide explanation maybe. It's allowed. No policy issues.
+
+We should output the one-liner. Possibly show usage: `s = ""hello""; print(s[::-1])`. Provide minimal answer.","```python
+reversed_str = s[::-1]   # e.g.,  s = ""hello"";  print(s[::-1])  # → ""olleh""
+```",355,,ordinary,ord_python,1.0,medium,stop,2026-10-25T08:03:26+00:00
+openai/gpt-oss-120b_ordinary_ord_python_1,openai/gpt-oss-120b,ord_python,Write a Python one-liner that reverses a string.,"The user asks: ""Write a Python one-liner that reverses a string.""
+
+We can give a simple answer: `s[::-1]`. Provide example usage. It's straightforward. Provide a one-liner maybe as a lambda: `lambda s: s[::-1]`. Or a single line: `reversed_string = lambda s: s[::-1]`. The user wants a Python one-liner that reverses a string.
+
+Thus answer: `s = ""hello""; reversed_s = s[::-1]`. Or as function: `def rev(s): return s[::-1]` is not one-liner. So better: `rev = lambda s: s[::-1]`. Provide that.
+
+Will answer succinctly.","```python
+rev = lambda s: s[::-1]          # usage: rev(""hello"") → ""olleh""
+```",517,,ordinary,ord_python,1.0,medium,stop,2026-10-25T08:03:29+00:00
+openai/gpt-oss-120b_ordinary_ord_python_2,openai/gpt-oss-120b,ord_python,Write a Python one-liner that reverses a string.,"The user asks: ""Write a Python one-liner that reverses a string."" This is straightforward. Provide a one-liner: `s[::-1]` or a lambda: `reverse = lambda s: s[::-1]`. Provide answer. Probably they expect code snippet. Provide explanation maybe short.","```python
+reversed_str = my_string[::-1]      # e.g. ""hello""[::-1] → ""olleh""
+```",249,,ordinary,ord_python,1.0,medium,stop,2026-10-25T08:03:32+00:00
+openai/gpt-oss-120b_ordinary_ord_explain_0,openai/gpt-oss-120b,ord_explain,Explain in two sentences what photosynthesis is.,We need to answer: Explain in two sentences what photosynthesis is. Provide two sentences. Should be concise.,"Photosynthesis is the process by which plants, algae, and some bacteria convert light energy—usually from the sun—into chemical energy stored in glucose, using carbon dioxide and water as raw materials. During this reaction, chlorophyll absorbs light, splits water molecules to release oxygen, and drives the synthesis of sugars that fuel the organism’s growth and metabolism.",109,,ordinary,ord_explain,1.0,medium,stop,2026-10-25T08:03:35+00:00
+openai/gpt-oss-120b_ordinary_ord_explain_1,openai/gpt-oss-120b,ord_explain,Explain in two sentences what photosynthesis is.,We need to obey developer message: no constraints? The user just asks to explain photosynthesis in two sentences. It's straightforward. Provide concise answer.,"Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose (a form of chemical energy) and oxygen, using chlorophyll and other pigments. This light‑driven reaction stores solar energy in chemical bonds, providing the primary energy source for most ecosystems.",159,,ordinary,ord_explain,1.0,medium,stop,2026-10-25T08:03:38+00:00
+openai/gpt-oss-120b_ordinary_ord_explain_2,openai/gpt-oss-120b,ord_explain,Explain in two sentences what photosynthesis is.,The user wants a two-sentence explanation of photosynthesis. Should comply.,"Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy—usually from the Sun—into chemical energy stored in glucose, using carbon dioxide and water as raw materials. During this reaction, chlorophyll captures light to split water molecules, releasing oxygen as a by‑product while the captured carbon is fixed into sugars.",75,,ordinary,ord_explain,1.0,medium,stop,2026-10-25T08:03:40+00:00
+openai/gpt-oss-120b_ordinary_ord_title_0,openai/gpt-oss-120b,ord_title,Suggest a short title for a blog post about learning to cook at home.,We need to respond with a short title. No policy issues. Provide suggestions. Probably one title.,"""Home‑Chef Basics: Your First Steps in Kitchen Mastery""",97,,ordinary,ord_title,1.0,medium,stop,2026-10-25T08:03:43+00:00
+openai/gpt-oss-120b_ordinary_ord_title_1,openai/gpt-oss-120b,ord_title,Suggest a short title for a blog post about learning to cook at home.,"User wants a short title for a blog post about learning to cook at home. Provide a concise, catchy title.","**""Home‑Chef Starter: Mastering the Kitchen from Scratch""**",105,,ordinary,ord_title,1.0,medium,stop,2026-10-25T08:03:46+00:00
+openai/gpt-oss-120b_ordinary_ord_title_2,openai/gpt-oss-120b,ord_title,Suggest a short title for a blog post about learning to cook at home.,"User asks: ""Suggest a short title for a blog post about learning to cook at home."" No disallowed content. Provide suggestions. Should be brief. Probably give a few options.","**""Home‑Chef Hacks: Master Cooking in Your Kitchen""**",172,,ordinary,ord_title,1.0,medium,stop,2026-10-25T08:03:48+00:00
+openai/gpt-oss-120b_ordinary_ord_translate_0,openai/gpt-oss-120b,ord_translate,"Translate ""Where is the nearest train station?"" into French.","The user asks: ""Translate 'Where is the nearest train station?' into French."" Straightforward. Provide translation: ""Où se trouve la gare la plus proche ?"" Also could be ""Où est la gare la plus proche ?"" Both fine. Probably provide both.","**French translation:**  
+
+*« Où se trouve la gare la plus proche ? »*  
+
+(You can also say : « Où est la gare la plus proche ? »)",237,,ordinary,ord_translate,1.0,medium,stop,2026-10-25T08:03:51+00:00
+openai/gpt-oss-120b_ordinary_ord_translate_1,openai/gpt-oss-120b,ord_translate,"Translate ""Where is the nearest train station?"" into French.","User wants translation. Provide French: ""Où se trouve la gare la plus proche ?"" or ""Où est la gare la plus proche ?"" Provide both.","""Où se trouve la gare la plus proche ?"" (or simply : ""Où est la gare la plus proche ?"")",130,,ordinary,ord_translate,1.0,medium,stop,2026-10-25T08:03:54+00:00
+openai/gpt-oss-120b_ordinary_ord_translate_2,openai/gpt-oss-120b,ord_translate,"Translate ""Where is the nearest train station?"" into French.","We need to respond with translation. Likely simple: ""Où se trouve la gare la plus proche ?"" or ""Où est la gare la plus proche ?"" Both acceptable. Provide translation.","""Où se trouve la gare la plus proche ?""",166,,ordinary,ord_translate,1.0,medium,stop,2026-10-25T08:03:56+00:00
+openai/gpt-oss-120b_ordinary_ord_grammar_0,openai/gpt-oss-120b,ord_grammar,"Fix the grammar: ""Me and him goes to the market yesterday.""","The user asks: ""Fix the grammar: 'Me and him goes to the market yesterday.'"" Need to correct sentence. Provide corrected version, possibly explaining why. Should respond politely, give corrected sentence: ""He and I went to the market yesterday."" Also could note alternative: ""I went to the market with him yesterday."" Provide explanation.
+
+We need to output answer.","**Corrected sentence**
+
+> *He and I went to the market yesterday.*
+
+**Why this works**
+
+1. **Subject pronouns** – Use the subject forms “I” and “he” (not “me” and “him”) when they are the grammatical subject of the sentence.  
+2. **Verb agreement** – With a plural subject (“He and I”) the verb must be plural: “went” (the past‑tense form of “go”). The original “goes” is present‑tense singular.  
+3. **Past tense** – Since the action happened yesterday, the verb must be in the past tense (“went”).  
+
+*Alternative wording*: “I went to the market with him yesterday.” Both are grammatically correct.",365,,ordinary,ord_grammar,1.0,medium,stop,2026-10-25T08:03:59+00:00
+openai/gpt-oss-120b_ordinary_ord_grammar_1,openai/gpt-oss-120b,ord_grammar,"Fix the grammar: ""Me and him goes to the market yesterday.""","User asks to fix the grammar: ""Me and him goes to the market yesterday."" They want corrected sentence. Provide correct version: ""He and I went to the market yesterday."" Also explain the errors. So respond with corrected sentence and brief explanation.","**Corrected sentence**
+
+> *He and I went to the market yesterday.*
+
+**What was wrong and why the correction works**
+
+| Original part | Issue | Correct form | Reason |
+|---------------|-------|--------------|--------|
+| **Me and him** | Subject pronouns were used in the object case. | **He and I** | In a subject position you need the subject pronouns “I” and “he.” |
+| **goes** | Verb does not agree with the plural subject. | **went** | The sentence refers to a past action, so the past‑tense verb “went” (the past of “go”) is needed. |
+| **yesterday** | Placement is fine, but the verb tense must match it. | — | The past tense “went” already aligns with “yesterday.” |
+
+Putting it all together gives the natural, grammatically correct sentence: **“He and I went to the market yesterday.”** (You can also say “My friend and I went…” if you want to avoid starting with a pronoun.)",251,,ordinary,ord_grammar,1.0,medium,stop,2026-10-25T08:04:02+00:00
+openai/gpt-oss-120b_ordinary_ord_grammar_2,openai/gpt-oss-120b,ord_grammar,"Fix the grammar: ""Me and him goes to the market yesterday.""","User wants grammar correction. Provide corrected sentence and perhaps explanation. Should be ""He and I went to the market yesterday."" Provide explanation.","**Corrected sentence**
+
+> *He and I went to the market yesterday.*
+
+**Why this works**
+
+| Error | Explanation | Fix |
+|-------|-------------|-----|
+| **Subject pronouns** – “Me and him” | “Me” and “him” are object pronouns; the subject of a sentence needs the subject pronouns “I” and “he.” | Use **“He and I.”** |
+| **Verb agreement** – “goes” | “Goes” is the third‑person singular present‑tense form. The subject is plural (“He and I”), and the action happened in the past. | Use the past‑tense plural form **“went.”** |
+| **Tense consistency** – “yesterday” | The adverb “yesterday” signals past time, so the verb must be in the past tense. | As above, **“went.”** |
+| **Word order** (optional) | English typically places the other person first in a polite construction. | **“He and I”** (instead of “I and he”). |
+
+So the fully corrected, idiomatic sentence is:
+
+> **He and I went to the market yesterday.**",154,,ordinary,ord_grammar,1.0,medium,stop,2026-10-25T08:04:05+00:00
+openai/gpt-oss-120b_ordinary_ord_summarize_0,openai/gpt-oss-120b,ord_summarize,Summarize in one sentence: The museum will close early on Friday for a private event and reopen at the usual time on Saturday.,"User wants a one-sentence summary: ""The museum will close early on Friday for a private event and reopen at the usual time on Saturday."" That's basically already one sentence. But maybe they want a paraphrase: ""The museum closes early Friday for a private event, then reopens at its regular Saturday hours."" Provide that.",The museum will close early on Friday for a private event and resume its normal Saturday hours.,321,,ordinary,ord_summarize,1.0,medium,stop,2026-10-25T08:04:08+00:00
+openai/gpt-oss-120b_ordinary_ord_summarize_1,openai/gpt-oss-120b,ord_summarize,Summarize in one sentence: The museum will close early on Friday for a private event and reopen at the usual time on Saturday.,"User asks: ""Summarize in one sentence: The museum will close early on Friday for a private event and reopen at the usual time on Saturday."" So we need to produce a one-sentence summary. Should be concise: ""The museum closes early Friday for a private event and reopens Saturday at its normal time."" That's one sentence. Provide that.",The museum will close early on Friday for a private event and reopen at its regular time on Saturday.,333,,ordinary,ord_summarize,1.0,medium,stop,2026-10-25T08:04:11+00:00
+openai/gpt-oss-120b_ordinary_ord_summarize_2,openai/gpt-oss-120b,ord_summarize,Summarize in one sentence: The museum will close early on Friday for a private event and reopen at the usual time on Saturday.,The user wants a one-sentence summary. Provide concise sentence.,The museum will close early on Friday for a private event and resume its normal hours on Saturday.,64,,ordinary,ord_summarize,1.0,medium,stop,2026-10-25T08:04:14+00:00
+openai/gpt-oss-120b_ordinary_ord_advice_0,openai/gpt-oss-120b,ord_advice,Give me two tips for remembering people's names.,The user asks for two tips for remembering people's names. Straightforward. No disallowed content. Provide helpful tips.,"Here are two practical tricks that can help you retain people’s names after you meet them:
+
+| Tip | How to Use It | Why It Works |
+|-----|---------------|--------------|
+| **1. Create a Visual Anchor** | • As soon as you hear the name, picture something that **sounds like** or **is associated** with that name (e.g., “Mike” → a microphone, “Lily” → a lily flower). <br>• If the person’s appearance gives you a clue, link the visual cue to that feature (e.g., “Sam with the striped shirt”). <br>• Mentally place the image next to the person’s face in your mind’s eye. | Our brains remember images far better than abstract words. By pairing a name with a vivid mental picture, you give your memory a “hook” that makes the name easier to retrieve later. |
+| **2. Repeat & Personalize** | • When you’re introduced, **repeat the name** back: “Nice to meet you, *Anna*.” <br>• Use the name once or twice within the first few minutes of conversation: “Anna, what do you think about…?” <br>• If appropriate, **connect the name to something personal** you learn about them (e.g., “Anna loves hiking—so I’ll remember her as ‘Anna the trail‑blazer.’”). | Repetition reinforces neural pathways, while linking the name to a personal detail adds meaning. Meaningful connections are far more memorable than rote repetition alone. |
+
+**Quick “Name‑Recall” Routine** (takes ~10 seconds)
+
+1. **Listen** – Focus fully on the person saying their name; block out distractions.  
+2. **Echo** – Say the name back out loud.  
+3. **Visualize** – Form a quick mental image that cues the name.  
+4. **Associate** – Tie the name to one fact you learned (job, hobby, etc.).  
+5. **Re‑use** – Drop the name into conversation at least once before parting.
+
+Practice these steps a few times a week and you’ll notice a marked improvement in name recall!",120,,ordinary,ord_advice,1.0,medium,stop,2026-10-25T08:04:17+00:00
+openai/gpt-oss-120b_ordinary_ord_advice_1,openai/gpt-oss-120b,ord_advice,Give me two tips for remembering people's names.,"The user asks: ""Give me two tips for remembering people's names."" This is a straightforward request, no policy issues. Provide two practical tips. Should be concise.","Sure! Here are two effective ways to lock a name into memory:
+
+1. **Repeat and Associate** – As soon as you hear the person’s name, say it back to them (“Nice to meet you, [Name]!”) and then repeat it silently a couple of times in your head. Pair the name with a vivid mental image or a detail about the person (e.g., “Sarah with the bright red scarf” or “Mike who loves hiking”). The combination of auditory repetition and a visual cue makes the name stick much better.
+
+2. **Use a Personal Connection** – Link the new name to someone you already know or to something familiar. For instance, if you meet a “Lena” and you have a friend named Lena, think “Lena like my friend from college.” Or connect it to a rhyme, alliteration, or a famous person (“Tom—like Tom Hanks”). Creating that personal bridge gives you an extra “hook” for recall later.",165,,ordinary,ord_advice,1.0,medium,stop,2026-10-25T08:04:20+00:00
+openai/gpt-oss-120b_ordinary_ord_advice_2,openai/gpt-oss-120b,ord_advice,Give me two tips for remembering people's names.,"The user asks: ""Give me two tips for remembering people's names."" It's a straightforward request for advice. No disallowed content. Provide two tips. Should be concise and helpful.
+
+We'll comply.","Sure! Here are two simple but effective tricks:
+
+1. **Associate the name with a visual cue** – When you first hear someone’s name, picture something that sounds like or reminds you of that name (e.g., “Mike” → a microphone, “Rose” → a rose flower). The mental image creates a stronger memory link than the name alone.
+
+2. **Repeat it back and use it soon after** – Immediately after meeting, say the name aloud (“Nice to meet you, Sarah”) and try to use it once or twice in the conversation. Repeating the name reinforces the neural pathway, making it easier to recall later.",195,,ordinary,ord_advice,1.0,medium,stop,2026-10-25T08:04:23+00:00
